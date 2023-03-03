@@ -5,9 +5,9 @@ import Homepage from './pages/Homepage'
 const App = () => {
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Homepage/>} />
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+      </Routes>
     </>
   )
 }
