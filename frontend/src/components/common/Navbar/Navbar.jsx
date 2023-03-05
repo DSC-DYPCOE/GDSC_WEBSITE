@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav className={classes.nav}>
         <div className={classes.logoContainer}>
-          <img src={require("F:/GDSC Website/frontend/src/components/assets/Logo.png")} alt="DYP LOGO"></img>
+          <img src={require("../../assets/nav_logo.png")} alt="DYP LOGO"></img>
         </div>
         <ul>
           <li><a href="#" className={classes.active}>Home</a></li>
