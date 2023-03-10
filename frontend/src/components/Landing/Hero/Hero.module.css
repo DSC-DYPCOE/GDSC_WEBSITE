@@ -1,3 +1,7 @@
 .container{
     height: 100vh;
 }
+
+.container.dark{
+    background-color: #1a1a1a;
+}

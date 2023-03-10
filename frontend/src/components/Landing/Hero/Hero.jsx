@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import classes from './Hero.module.css'
+import { ThemeContext } from '../../../App'
+
 
 const Hero = () => {
+  const theme = useContext(ThemeContext)
   return (
-    <div className={classes.container}>Hero</div>
+    <div className={`${classes.container} ${theme.theme === 'light' ? classes.light : classes.dark}`}>Hero</div>
   )
 }
 
